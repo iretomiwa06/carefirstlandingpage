@@ -13,8 +13,8 @@ function CtaBanner() {
             <Link to="/contact" className="btn btn-light">
               Book an appointment <Icon name="arrow" size={18} />
             </Link>
-            <a href="tel:08000000000" className="btn btn-outline-light">
-              <Icon name="phone" size={18} /> 0800-000-0000
+            <a href="tel:08144815137" className="btn btn-outline-light">
+              <Icon name="phone" size={18} /> 0814-481-5137
             </a>
           </div>
         </Reveal>

@@ -35,12 +35,12 @@ function Footer() {
             <h4>Contact</h4>
             <ul>
               <li><Icon name="pin" size={16} /> 14 Wellness Avenue, Lagos</li>
-              <li><Icon name="phone" size={16} /> 0800-000-0000</li>
-              <li><Icon name="mail" size={16} /> care@carefirst.example</li>
+              <li><Icon name="phone" size={16} /> 0814-481-5137</li>
+              <li><Icon name="mail" size={16} /> iretomiwaemma@gmail.com</li>
             </ul>
           </div>
         </div>
-        <p className="footer-bottom">© {year} CareFirst Hospital. A practice project built with React.</p>
+        <p className="footer-bottom">© {year} CareFirst Hospital. A practice project.</p>
       </footer>
     </>
   )

@@ -8,8 +8,8 @@ const ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_KEY
 
 const info = [
   { icon: 'pin', title: 'Visit us', text: '14 Wellness Avenue, Lagos' },
-  { icon: 'phone', title: 'Call us', text: '0800-000-0000 (24/7 emergency)' },
-  { icon: 'mail', title: 'Email', text: 'care@carefirst.example' },
+  { icon: 'phone', title: 'Call us', text: '0814-481-5137 (24/7 emergency)' },
+  { icon: 'mail', title: 'Email', text: 'iretomiwaemma@gmail.com' },
   { icon: 'clock', title: 'Opening hours', text: 'Clinics Mon – Sat, 8am – 6pm. Emergency 24 hours.' },
 ]
 
@@ -129,7 +129,7 @@ function Contact() {
                       <input id="email" name="email" type="email" value={values.email} onChange={handleChange} placeholder="you@example.com" autoComplete="email" />
                     </Field>
                     <Field label="Phone (optional)" name="phone" error={errors.phone}>
-                      <input id="phone" name="phone" type="tel" value={values.phone} onChange={handleChange} placeholder="0800 000 0000" autoComplete="tel" />
+                      <input id="phone" name="phone" type="tel" value={values.phone} onChange={handleChange} placeholder="0814 481 5137" autoComplete="tel" />
                     </Field>
                   </div>
                   <div className="row">
